@@ -77,4 +77,7 @@ Winow::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+  #precompile all the assests in production
+  config.assets.precompile = ['*.js', '*.css', '*.css.erb', '*.css.scss']
 end
