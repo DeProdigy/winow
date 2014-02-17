@@ -2,8 +2,11 @@
 
 ~~figure out why the reset doesn't get called (precompile was turned off)~~
 
-set up the proper forwardingp with CNAME and approve on heroku side
+~~set up the proper forwardingp with CNAME and approve on heroku side~~
 
-set up up yelp api
+~~sign up to Yelp API~~
 
-set up foursquare api
+~~set up Yelp API Keys~~
+
+push API key to heroku
+
