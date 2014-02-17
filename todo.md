@@ -8,5 +8,5 @@
 
 ~~set up Yelp API Keys~~
 
-push API key to heroku
+~~push API key to heroku~~
 
