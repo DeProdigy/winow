@@ -27,7 +27,7 @@ Winow::Application.configure do
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
-  config.assets.compile = false
+  config.assets.compile = true
 
   # Generate digests for assets URLs.
   config.assets.digest = true
@@ -79,5 +79,5 @@ Winow::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   #precompile all the assests in production
-  config.assets.precompile = ['*.js', '*.css', '*.css.erb', '*.css.scss']
+  # config.assets.precompile = ['*.js', '*.css', '*.css.erb', '*.css.scss']
 end
