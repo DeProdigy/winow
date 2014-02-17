@@ -10,3 +10,7 @@
 
 ~~push API key to heroku~~
 
+look into foursquare API
+
+check the authentication with token for ios
+
