@@ -10,6 +10,12 @@
 
 ~~push API key to heroku~~
 
+~~create the welcome controller and move everything over~~
+
+get the browser's location
+
+ship location into the search
+
 look into foursquare API
 
 check the authentication with token for ios
