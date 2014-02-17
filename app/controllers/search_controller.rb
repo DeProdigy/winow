@@ -9,12 +9,12 @@ class SearchController < ApplicationController
   end
 
   def create
-    Search.yelp(params['keyword'])
-    binding.pry
+    search_response = Search.yelp(params['keyword'])
+    # binding.pry
+    render json: search_response
   end
 
   def show
-
   end
 
 end
