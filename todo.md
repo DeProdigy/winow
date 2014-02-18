@@ -14,7 +14,7 @@
 
 ~~get the browser's location~~
 
-ship location into the search
+~~ship location into the search~~
 
 look into foursquare API
 
