@@ -1,6 +1,7 @@
 class Search < ActiveRecord::Base
 
-  def self.yelp(keyword)
+  def self.yelp(keyword, latitude, longitude)
+    binding.pry
     consumer_key = ENV['YELP_CONSUMER_KEY']
     consumer_secret = ENV['YELP_CONSUMER_SECRET']
     token = ENV['YELP_TOKEN']
