@@ -4,7 +4,7 @@ class SearchController < ApplicationController
   # one page to bring them all
   # and in the darkness bind them.
 
-  #turn off authenticity
+  #turn off authentication for the iOS
   skip_before_filter :verify_authenticity_token, :if => Proc.new { |c| c.request.format == 'application/json' }
 
   def create

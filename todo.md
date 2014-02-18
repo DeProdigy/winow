@@ -12,9 +12,7 @@
 
 ~~create the welcome controller and move everything over~~
 
-get the browser's location
-
-deploy GOOGLE API KEY to heorku
+~~get the browser's location~~
 
 ship location into the search
 
