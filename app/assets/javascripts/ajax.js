@@ -1,8 +1,8 @@
-function postAjax(searchInput) {
+function postAjax() {
   $.ajax({
     type: 'POST',
     url: '/search',
-    data: {'keyword': searchInput},
+    data: {'keyword': user.keyword},
     dataType: 'json'
   }).done(function(response){
     console.log(response);

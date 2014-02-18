@@ -14,6 +14,8 @@
 
 get the browser's location
 
+deploy GOOGLE API KEY to heorku
+
 ship location into the search
 
 look into foursquare API

@@ -30,6 +30,9 @@ gem 'jbuilder', '~> 1.2'
 #Yelp Gem
 gem 'yelpster'
 
+#Gmaps Gem
+gem 'gmaps4rails'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false

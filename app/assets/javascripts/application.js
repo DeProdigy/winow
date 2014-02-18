@@ -12,6 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require event_listeners
+//= require user
+//= require location
 //= require ajax
+//= require event_listeners
+
 
