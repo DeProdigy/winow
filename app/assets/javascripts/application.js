@@ -16,5 +16,6 @@
 //= require location
 //= require ajax
 //= require event_listeners
+//= require create_cards
 
 

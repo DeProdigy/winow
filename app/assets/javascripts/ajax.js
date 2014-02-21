@@ -5,6 +5,6 @@ function postAjax() {
     data: {'keyword': user.keyword, 'latitude': user.latitude, 'longitude': user.longitude},
     dataType: 'json'
   }).done(function(response){
-    console.log(response);
+    createCards(response);
   });
 }
