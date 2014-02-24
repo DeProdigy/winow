@@ -1,12 +1,48 @@
 body {
   text-align: center;
-  background: url('http://mainsite.widescreen-wallpaper.eu/images/unbelieveable-sunset-hd-wallpaper-for-2880x1800-retina-39-3218.jpg');
+  background: #E95849;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.hidden {
+  display: none;
+}
+
+section {
+  margin-top: 50px;
+  height: 600px;
+  width: 30%;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  //animation
+  -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 3s;
+  -vendor-animation-iteration-count: infinite;
+}
+
+.one {
+  background: url('http://15pictures.com/wp-content/gallery/15-pictures-sushi/sushi-7.jpg');
+}
+
+.two {
+  background: url('http://vemaybaythanhhoang.com/wp-content/uploads/2014/01/v%C3%A9-m%C3%A1y-bay-tp-hcm-%C4%91i-Tokyo.jpg');
+}
+
+.three {
+  background: url('http://www-tc.pbs.org/food/files/2012/09/Sushi-1-1.jpg');
+}
+
+
+
+
 form {
-  margin-top: 5%;
+  z-index: 1000;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  margin-left: -250px;
 }
 
 #search-field {
@@ -24,37 +60,39 @@ form {
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   border-bottom-style: solid;
-  border-bottom-width: 1px;
+  border-bottom-width: 3px;
   border-left-color: white;
   border-left-style: solid;
-  border-left-width: 1px;
+  border-left-width: 3px;
   border-right-color: white;
   border-right-style: solid;
-  border-right-width: 1px;
+  border-right-width: 3px;
   border-top-color: white;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   border-top-style: solid;
-  border-top-width: 1px;
+  border-top-width: 3px;
 }
 
 //change placeholder color
 ::-webkit-input-placeholder { /* WebKit browsers */
-    color:    white;
+  color:    white;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    white;
+  color:    white;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    white;
+  color:    white;
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:    white;
+  color:    white;
 }
 
 //get rid of the blue around the search bar on focus
 *:focus {
-    outline: 0;
+  outline: 0;
 }
+
+
 
 
