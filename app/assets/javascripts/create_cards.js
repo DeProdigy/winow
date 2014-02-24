@@ -1,7 +1,17 @@
 function createCards(data) {
-
   console.log(data);
 
-  $('section').removeClass('hidden');
-  $('section').addClass('animated slideInRight');
+  var hidden = $('section').hasClass('hidden');
+
+  if (!hidden) {
+    $('section').addClass('slideOutLeft');
+    setTimeout(function (){
+      $('section').toggle();
+    }, 3000);
+  }
+
+  if (hidden) {
+    $('section').toggle();
+    $('section').addClass('slideInRight');
+  }
 }
