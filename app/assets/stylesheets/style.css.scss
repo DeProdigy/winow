@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+  // background: grey;
+}
+
+form {
+  margin-top: 5%;
+}
+
+#search-field {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  border: 2px solid white;
+  height: 50px;
+  width: 500px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0;
+  // styling from stack
+  border-bottom-color: #b3b3b3;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: #b3b3b3;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: #b3b3b3;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: #b3b3b3;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-top-style: solid;
+  border-top-width: 1px;
+}
