@@ -1,6 +1,8 @@
 body {
   text-align: center;
-  // background: grey;
+  background: url('http://gohakim.com/dropbox/images/03021_goldenfield_2880x1800.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 form {
@@ -10,26 +12,49 @@ form {
 #search-field {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  border: 2px solid white;
+  // border: 4px solid white;
   height: 50px;
   width: 500px;
   background: rgba(255, 255, 255, 0.1);
-  padding: 0;
+  padding: 10px;
+
   // styling from stack
-  border-bottom-color: #b3b3b3;
+  color: white;
+  border-bottom-color: white;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   border-bottom-style: solid;
   border-bottom-width: 1px;
-  border-left-color: #b3b3b3;
+  border-left-color: white;
   border-left-style: solid;
   border-left-width: 1px;
-  border-right-color: #b3b3b3;
+  border-right-color: white;
   border-right-style: solid;
   border-right-width: 1px;
-  border-top-color: #b3b3b3;
+  border-top-color: white;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   border-top-style: solid;
   border-top-width: 1px;
 }
+
+//change placeholder color
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    white;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    white;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    white;
+}
+
+//get rid of the blue around the search bar on focus
+*:focus {
+    outline: 0;
+}
+
+
