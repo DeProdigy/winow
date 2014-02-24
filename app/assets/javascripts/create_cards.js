@@ -1,17 +1,35 @@
 function createCards(data) {
-  console.log(data);
+  console.log(data.businesses);
 
-  var hidden = $('section').hasClass('hidden');
+  for (var i = 0; i < data.businesses.length; i++) {
+    var imageLink = data.businesses[i].image_url;
+    // debugger;
+    var largeImageLink = imageLink.replace(/ms.jpg/, 'l.jpg');
+    console.log(largeImageLink);
 
-  if (!hidden) {
-    $('section').addClass('slideOutLeft');
-    setTimeout(function (){
-      $('section').toggle();
-    }, 3000);
-  }
+    $('.card-'+i).css('background', 'url('+largeImageLink+')')
+                  .removeClass('hidden')
+                  .addClass('background')
+                  .addClass('slideInRight');
 
-  if (hidden) {
-    $('section').toggle();
-    $('section').addClass('slideInRight');
   }
 }
+
+
+
+
+
+
+  // var hidden = $('section').hasClass('hidden');
+
+  // if (!hidden) {
+  //   $('section').addClass('slideOutLeft');
+  //   setTimeout(function (){
+  //     $('section').toggle();
+  //   }, 3000);
+  // }
+
+  // if (hidden) {
+  //   $('section').toggle();
+  //   $('section').addClass('slideInRight');
+  // }

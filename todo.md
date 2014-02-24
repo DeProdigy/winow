@@ -20,3 +20,5 @@ look into foursquare API
 
 check the authentication with token for ios
 
+add blur to search bar background
+

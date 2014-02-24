@@ -12,7 +12,7 @@ class Search < ActiveRecord::Base
     consumer = OAuth::Consumer.new(consumer_key, consumer_secret, {:site => "http://#{api_host}"})
     access_token = OAuth::AccessToken.new(consumer, token, token_secret)
 
-    path = "/v2/search?term=#{keyword}&sort=2&limit=10&location=New+York&cll=#{latitude},#{longitude}"
+    path = "/v2/search?term=#{keyword}&sort=2&limit=3&location=New+York&cll=#{latitude},#{longitude}"
 
     response = access_token.get(path).body
     JSON.parse(response)

@@ -14,24 +14,34 @@ section {
   height: 600px;
   width: 30%;
   display: inline-block;
-  background-repeat: no-repeat;
-  background-size: cover;
+
   //animation
   -vendor-animation-duration: 3s;
   -vendor-animation-delay: 3s;
   -vendor-animation-iteration-count: infinite;
 }
 
-.one {
-  background: url('http://15pictures.com/wp-content/gallery/15-pictures-sushi/sushi-7.jpg');
+.background {
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.two {
-  background: url('http://vemaybaythanhhoang.com/wp-content/uploads/2014/01/v%C3%A9-m%C3%A1y-bay-tp-hcm-%C4%91i-Tokyo.jpg');
+.card-0 {
+  // background: url('http://15pictures.com/wp-content/gallery/15-pictures-sushi/sushi-7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.three {
-  background: url('http://www-tc.pbs.org/food/files/2012/09/Sushi-1-1.jpg');
+.card-1 {
+  // background: url('http://vemaybaythanhhoang.com/wp-content/uploads/2014/01/v%C3%A9-m%C3%A1y-bay-tp-hcm-%C4%91i-Tokyo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-2 {
+  // background: url('http://www-tc.pbs.org/food/files/2012/09/Sushi-1-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
