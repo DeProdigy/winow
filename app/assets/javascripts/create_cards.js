@@ -4,12 +4,11 @@ function createCards(data) {
   for (var i = 0; i < data.businesses.length; i++) {
     var imageLink = data.businesses[i].image_url;
     // debugger;
-    var largeImageLink = imageLink.replace(/ms.jpg/, 'l.jpg');
+    var largeImageLink = imageLink.replace(/ms.jpg/, 'o.jpg');
     console.log(largeImageLink);
 
     $('.card-'+i).css('background', 'url('+largeImageLink+')')
                   .removeClass('hidden')
-                  .addClass('background')
                   .addClass('slideInRight');
 
   }

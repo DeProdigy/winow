@@ -15,37 +15,16 @@ section {
   width: 30%;
   display: inline-block;
 
+  //fix the background image
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+
   //animation
   -vendor-animation-duration: 3s;
   -vendor-animation-delay: 3s;
   -vendor-animation-iteration-count: infinite;
 }
-
-.background {
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.card-0 {
-  // background: url('http://15pictures.com/wp-content/gallery/15-pictures-sushi/sushi-7.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.card-1 {
-  // background: url('http://vemaybaythanhhoang.com/wp-content/uploads/2014/01/v%C3%A9-m%C3%A1y-bay-tp-hcm-%C4%91i-Tokyo.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.card-2 {
-  // background: url('http://www-tc.pbs.org/food/files/2012/09/Sushi-1-1.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-
 
 form {
   z-index: 1000;
@@ -61,7 +40,7 @@ form {
   // border: 4px solid white;
   height: 50px;
   width: 500px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(240, 238, 233, 0.3);
   padding: 10px;
 
   // styling from stack
@@ -82,6 +61,7 @@ form {
   border-top-right-radius: 3px;
   border-top-style: solid;
   border-top-width: 3px;
+
 }
 
 //change placeholder color
