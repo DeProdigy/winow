@@ -10,4 +10,8 @@ $( document ).ready(function() {
     postAjax();
   });
 
+  $('.flipper').on('click', function() {
+    $(this).toggleClass('hover');
+  });
+
 });
